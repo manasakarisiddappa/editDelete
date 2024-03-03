@@ -1,5 +1,35 @@
 .App {
-  text-align: center;
+  margin: 20px;
+  display: flex;
+}
+
+.card {
+  border: 1px solid black;
+  width: 20rem;
+}
+
+.formelement {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card > li {
+  list-style-type: none;
+}
+
+.card {
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
